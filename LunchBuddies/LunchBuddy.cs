@@ -10,5 +10,15 @@ namespace LunchBuddies
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+
+
+
+        public LunchBuddy(string firstname, string lastname)
+        {
+            FirstName = firstname;
+            LastName = lastname;
+        }
     }
 }
+
